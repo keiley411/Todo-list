@@ -7,8 +7,8 @@ const TodoList = ({todos, onDelete, onEdit}) => {
   return <div>
     {
         todos.map((todoData) => {
-            return <Todo data={todoData} onDelete={onDelete} />
-            return <Todo data={todoData} onEdit={onEdit} />
+            return <Todo data={todoData} onDelete={onDelete} onEdit={onEdit} />
+          
         })
     }
   </div>;
