@@ -1,4 +1,8 @@
 .todo {
     display: flex;
     flex-direction: row;
+    
+}
+.todo button{
+    margin: 10px;
 }

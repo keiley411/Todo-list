@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import "./TodoEdit.css"
 
 
 const TodoEdit = ({textToBeEdited, handleChange, handleTextEdit}) => {
